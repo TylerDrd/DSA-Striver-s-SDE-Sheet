@@ -1,3 +1,9 @@
+/*
+    Time complexity - O(n)
+    Space Complexity - O(n) - recursion stackspace
+    this is for 1 of the 3 traversals
+*/
+
 vector<vector<int>> ans;
 
 void inorder(TreeNode* root,vector<int> &t)
